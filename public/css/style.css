@@ -112,11 +112,22 @@
         margin-bottom: 20px;
         font-weight: 600;
     }
-    .olvidar{
+
+    .formulario .input input[type="submit"]:hover,.formulario .input input[type="submit"]:active{
+        background: rgb(226, 225, 225);
+        color: #666;
+        max-width: 98px;
+        margin-left: 2px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .registrar{
         margin-top: 5px;
         color: #fff;  
     }
-    .olvidar a{
+    .registrar a{
         color: #fff;
         font-weight: 600;
     }
